@@ -1,6 +1,7 @@
 body{
     background:url("./../Icones/wallpaper1.jpg") no-repeat;
     background-size: cover;
+    background-color: black;
 }
 .container{
     width: 100%;
