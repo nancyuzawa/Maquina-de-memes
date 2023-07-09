@@ -22,7 +22,6 @@ body{
     height: 100px;
     width:calc(100% / 3);
     text-align: center;
-
 }
 #b2{
     height: 100%;
@@ -53,9 +52,7 @@ body{
 #imageEdit{
     width: auto;
     width: 25%;
-    
 }
-
 .app-image{
     display: flex;
     flex-direction: column;
@@ -108,6 +105,7 @@ textarea{
 .text-box{
     background: rgb(0, 0, 0);
     color:  rgb(255, 255, 255);
+    width:  auto;
 }
 #meme-list{
     font-family: sans-serif;
@@ -120,4 +118,76 @@ textarea{
     margin-left: 5px;
     margin-right: 5px;
     align-items: center;
+}
+#image-input{
+  padding-top: 2%;
+}
+input{
+  font-size: 15px;
+}
+@media (max-width:1023px){
+  .container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  .boxPrincipal{
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box{
+    width:650px;
+  }
+  #display-image{
+    height: 550px;
+  }
+  #btn-download{
+    width: 550px;
+    height: 40px;
+  }
+  #b3{
+    height: 170px;
+    width: 650px;
+    margin-bottom: 5%;
+  }
+  textarea{
+    font-size: 30px;
+  }
+  select{
+    height: 40px;
+  }
+  input{
+    font-size: 20px;
+  }
+  button{
+    margin-top: 3%;
+  }
+}
+@media(max-width: 767px){
+  .box{
+    width:350px;
+  }
+  #display-image{
+    height: 250px;
+  }
+  #btn-download{
+    width: 250px;
+  }
+  #b3{
+    width: 340px;
+  }
+  textarea{
+    font-size: 20px;
+  }
+  select{
+    height: 30px;
+  }
+  input{
+    font-size: 15px;
+  }
 }
